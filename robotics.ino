@@ -86,5 +86,6 @@ void loop() {
   right.run();
   left.run();
 
+  DEBUG_CHECK(IR_VAL1,IR_VAL2,left,distanceToGo(),right.distanceToGo());
   delay(15);
 }

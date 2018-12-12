@@ -7,7 +7,7 @@ extern "C" {
 
 char* dummy();
 void drive_foward(int position,AccelStepper mot);
-void DEBUG_CHECK(int IR1, int IR2, int posTogo);
+void DEBUG_CHECK(int IR1, int IR2, int posTogo1, int posTogo2);
 #ifdef __cplusplus 
 }
 
